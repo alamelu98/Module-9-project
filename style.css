@@ -1,0 +1,180 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Jost', sans-serif;
+}
+button{
+    background-color:transparent;
+    border:none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#topbar{
+    background-color: rgba(220, 220, 220, 0.498);
+}
+.list1{
+    list-style: none;
+}
+.list1 li{
+    padding:10px 0px;
+}
+.hero{
+   
+    background-image: linear-gradient(rgba(243, 233, 233, 0) 0%,rgba(0, 0, 0, 0.214) 50%,rgba(110, 22, 22, 0.166) 100%),url("product-110.jpg");
+    position:relative;
+    text-align: center;
+    transition: all;
+    transition-duration: 1s;
+    
+    
+}
+.hero:hover{
+    background-image: linear-gradient(rgba(243, 233, 233, 0.526) 0%,rgba(0, 0, 0, 0.598) 50%,rgba(17, 29, 3, 0.731) 100%),url("product-110.jpg");
+}
+.heroitem{
+    margin-top:40%;
+    transition: all;
+    transition-duration: 1s;
+}
+.heroitem:hover{
+   
+   transform: scale(1.2);
+}
+.shopp{
+    margin-left:30%;
+}
+@media (max-width:768px)
+{
+    .shopp{
+        margin-left:0px;
+    }
+    #cf p{
+        margin:0;
+        padding:0
+    }
+}
+#cone{
+    position: relative;
+    background-image:url("cover-1.jpg");
+    background-position: center 100;
+    background-size: cover;
+    height:70vh;
+}
+#ctwo{
+    position: relative;
+    background-image:url("cover-2.jpg");
+    background-position: center 100;
+    background-size: cover;
+    height:70vh;
+    
+}
+#cthree{
+    position: relative;
+    background-image:url("cover-3.jpg");
+    background-position: center 100;
+    background-size: cover;
+    height:70vh;
+    
+}
+.cbtn{
+    position: absolute;
+    bottom:30px;
+    left:30%;
+    border-radius: 0;
+    padding:10px 30px;
+    
+}
+#ctwo:hover{
+    background-image: linear-gradient(rgba(243, 233, 233, 0.164) 0%,rgba(0, 0, 0, 0.055) 50%,rgba(17, 29, 3, 0.128) 100%),url("cover-2.jpg");
+
+}
+#cone:hover{
+    background-image: linear-gradient(rgba(243, 233, 233, 0.164) 0%,rgba(0, 0, 0, 0.055) 50%,rgba(17, 29, 3, 0.128) 100%),url("cover-1.jpg");
+
+}
+#cthree:hover{
+    background-image: linear-gradient(rgba(243, 233, 233, 0.164) 0%,rgba(0, 0, 0, 0.055) 50%,rgba(17, 29, 3, 0.128) 100%),url("cover-3.jpg");
+
+}
+.cont{
+    position:absolute;
+    top:35%;
+    left:30%;
+}
+#colone{
+    position: relative;
+    background-image:url("product-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+    transition:all 0.5s;
+}
+#coltwo{
+    position: relative;
+    background-image:url("product-2.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+    transition:all 0.5s;
+}
+#colthree{
+    position: relative;
+    background-image:url("product-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+    transition:all 0.5s;
+}
+#colfour{
+    position: relative;
+    background-image:url("product-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+    transition:all 0.5s;
+}
+
+#cf{
+    
+    background-image:url("cover-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    transition:all 0.5s;
+}
+.vd{
+    width:300px;
+    border-radius:0;
+}
+.shop1{
+    position:relative;
+    padding:0px;
+}.shoppp{
+  position: absolute;
+    top:0px;
+    left:0px;
+   right:0px;
+   bottom:0px;
+    background-color: rgba(0, 0, 0, 0);
+ color:rgba(240, 248, 255, 0);
+ transition: all 1s;
+
+}.shoppp:hover{
+    background-color: rgba(0, 0, 0, 0.628);
+    color:rgb(240, 248, 255);
+    font-weight: bold;
+
+}
+.list2{
+    list-style: none;
+}
+.list2 li{
+    color:rgb(208, 199, 199);
+}
